@@ -7,9 +7,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.12.4",
-    "morgan": "^1.7.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
     "uuid": "^2.0.3"
   },
   "keywords": [
@@ -17,5 +17,14 @@
     "hyperdev",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ms-vague/blog-app-challenge-starter-files.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ms-vague/blog-app-challenge-starter-files/issues"
+  },
+  "homepage": "https://github.com/ms-vague/blog-app-challenge-starter-files#readme"
 }

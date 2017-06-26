@@ -38,7 +38,7 @@ describe('Blog Posts', function() {
 			res.body.should.be.a('array');
 			res.body.length.should.be.above(0);
 			res.body.forEach(function(item) {
-				item.shoud.be.a('object');
+				item.should.be.a('object');
 				item.should.have.all.keys(
 					'id', 'title', 'content', 'author', 'publishDate')
 			});
@@ -60,7 +60,7 @@ describe('Blog Posts', function() {
 		.post('/blog-posts')
 		.send(newPost)
 		.then(function(res) {
-			res.shoud.have.status(201);
+			res.should.have.status(201);
 			res.should.be.json;
 			res.body.should.be.a('object');
 			res.body.should.have.all.keys(expectedKeys);
